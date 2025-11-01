@@ -4,7 +4,7 @@ A beautiful, modern, and responsive personal portfolio application built with Fl
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+
 
 ## ✨ Features
 
@@ -38,59 +38,6 @@ The portfolio includes:
 - Contact form with validation
 - Social media integration
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Flutter SDK (3.9.2 or higher)
-- Dart SDK
-- Android Studio / VS Code with Flutter extensions
-- Git
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/kanizadev/p005.git
-cd p005
-```
-
-2. **Install dependencies**
-```bash
-flutter pub get
-```
-
-3. **Add your assets**
-   - Place your profile picture in `assets/images/profile_picture.jpg` (or .png)
-   - Place your CV in `assets/documents/cv.pdf`
-
-4. **Run the app**
-```bash
-flutter run
-```
-
-## 📁 Project Structure
-
-```
-lib/
-├── main.dart                    # App entry point and theme
-├── screens/
-│   └── home_screen.dart         # Main portfolio screen
-└── widgets/
-    ├── responsive_widget.dart   # Responsive layout helper
-    ├── custom_app_bar.dart      # Navigation bar
-    ├── hero_section.dart        # Hero/intro section
-    ├── about_section.dart       # About me section
-    ├── skills_section.dart      # Skills showcase
-    ├── projects_section.dart    # Project cards
-    └── contact_section.dart     # Contact form
-
-assets/
-├── images/
-│   └── profile_picture.jpg      # Your profile picture
-└── documents/
-    └── cv.pdf                   # Your CV/resume
-```
 
 ## 🎨 Customization
 
@@ -131,58 +78,6 @@ assets/
 - **Profile Picture**: `assets/images/profile_picture.jpg` (or .png)
 - **CV/Resume**: `assets/documents/cv.pdf`
 
-## 📦 Dependencies
-
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-  cupertino_icons: ^1.0.8
-  google_fonts: ^6.2.1
-  url_launcher: ^6.3.1
-  font_awesome_flutter: ^10.7.0
-  animated_text_kit: ^4.2.2
-  path_provider: ^2.1.5
-  open_filex: ^4.7.0
-```
-
-## 🏗️ Build for Production
-
-### Android
-```bash
-flutter build apk --release
-# or for app bundle
-flutter build appbundle --release
-```
-
-### iOS
-```bash
-flutter build ios --release
-```
-
-### Web
-```bash
-flutter build web --release
-```
-
-### Desktop (Windows/macOS/Linux)
-```bash
-flutter build windows
-flutter build macos
-flutter build linux
-```
-
-## 🌐 Deployment
-
-### Web Deployment
-- **Firebase Hosting**: `firebase deploy --only hosting`
-- **Netlify**: Connect your GitHub repo
-- **Vercel**: Connect your GitHub repo
-- **GitHub Pages**: Use `flutter build web` and deploy the `build/web` folder
-
-### Mobile Deployment
-- **Android**: Upload APK/AAB to Google Play Console
-- **iOS**: Upload to App Store Connect via Xcode
 
 ## 👤 About
 
@@ -203,9 +98,7 @@ flutter build linux
 - **Design Tools**: Figma, Photoshop, Illustrator
 - **Other**: Firebase, Git, UI/UX Design, Notion
 
-## 📝 License
 
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
